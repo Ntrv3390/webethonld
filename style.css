@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-txt{
+  color:#fff;
+
+}
+.home-btn{
+  margin-left:50px;
+  margin-top:30px;
+}
+.btn{
+  padding: 12px 20px;
+  background: hsla(46, 80%, 78%, 1);
+
+background: linear-gradient(0deg, hsla(46, 80%, 78%, 1) 0%, hsla(41, 57%, 55%, 1) 100%);
+
+background: -moz-linear-gradient(0deg, hsla(46, 80%, 78%, 1) 0%, hsla(41, 57%, 55%, 1) 100%);
+
+background: -webkit-linear-gradient(0deg, hsla(46, 80%, 78%, 1) 0%, hsla(41, 57%, 55%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F4E09C", endColorstr="#CDA349", GradientType=1 );
+border-radius: 10px;
+text-decoration: none;
+position: relative;
+color:#000;
+}
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:450px;
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+.about-container{
+  margin-top:-100px;
+  clip-path: polygon(0 0, 33% 0, 44% 9%, 60% 9%, 69% 0, 100% 0, 100% 100%, 0 100%);
+  background: hsla(36, 7%, 40%, 1);
+
+  background: linear-gradient(45deg, hsla(36, 7%, 40%, 1) 0%, hsla(45, 5%, 15%, 1) 100%);
+  
+  background: -moz-linear-gradient(45deg, hsla(36, 7%, 40%, 1) 0%, hsla(45, 5%, 15%, 1) 100%);
+  
+  background: -webkit-linear-gradient(45deg, hsla(36, 7%, 40%, 1) 0%, hsla(45, 5%, 15%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6D675E", endColorstr="#292825", GradientType=1 );
+  height:450px;
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+.about-img img{
+  width: 89%;
+    border-radius: 10px;
+    margin-top: 161px;
+}
+.about-txt-heading{
+  color: #fff;
+    font-size: 65px;
+    margin-left: 65px;
+    margin-top: 8px;
+}
+.about-txt{
+  padding-right: 30px;
+  color: #fff;
+  margin-top: 224px;
+  text-align: justify;
+}
+
+.circle-container{
+  margin-top: -80px;
+    clip-path: polygon(0 9%, 64% 9%, 81% 0, 100% 0, 100% 100%, 0 100%);
+    background: hsla(30, 46%, 95%, 1);
+
+background: linear-gradient(0deg, hsla(30, 46%, 95%, 1) 0%, hsla(28, 12%, 70%, 1) 100%);
+
+background: -moz-linear-gradient(0deg, hsla(30, 46%, 95%, 1) 0%, hsla(28, 12%, 70%, 1) 100%);
+
+background: -webkit-linear-gradient(0deg, hsla(30, 46%, 95%, 1) 0%, hsla(28, 12%, 70%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F8F2EC", endColorstr="#BCB2A9", GradientType=1 );
+    height:700px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.circle-txt-heading
+{
+  color:#000;
+
+}
+
+.circle-row{
+    top:180px;
+    width: 450px;
+    height: 450px;
+    border: 2px dashed black;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.circle-row img{
+    width:25%;
+    height:24%;
+    border-radius: 50px;
+}
+#circle-text{
+    font-size:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#i1 {
+    position: absolute;
+    margin-top: -425px;
+    margin-left: 10px;
+  }
+  
+  #i2 {
+    position: absolute;
+    right: 83%;
+    top: 23%;
+  }
+  
+  #i3{
+    bottom: 5%;
+    position: absolute;
+    left: 1%;
+  }
+  
+  #i4 {
+    top: 72%;
+    position: absolute;
+    left: 72%;
+  }
+  
+  #i5 {
+    top: 23%;
+    position: absolute;
+    left: 85%;
+  }
+  
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.timer{
+  text-align: center;
+  padding:50px;
+  font-size: 30px;
+}
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.contact{
+ 
+  
+  background: hsla(36, 7%, 40%, 1);
+
+  background: linear-gradient(45deg, hsla(36, 7%, 40%, 1) 0%, hsla(45, 5%, 15%, 1) 100%);
+  
+  background: -moz-linear-gradient(45deg, hsla(36, 7%, 40%, 1) 0%, hsla(45, 5%, 15%, 1) 100%);
+  
+  background: -webkit-linear-gradient(45deg, hsla(36, 7%, 40%, 1) 0%, hsla(45, 5%, 15%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6D675E", endColorstr="#292825", GradientType=1 );
+  height:600px;
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
